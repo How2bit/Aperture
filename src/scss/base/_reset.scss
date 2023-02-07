@@ -21,7 +21,6 @@ li {
 img {
   vertical-align: top;
 }
-
 h1,
 h2,
 h3,
@@ -36,6 +35,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  cursor: context-menu;
 }
 
 ::-webkit-scrollbar {
