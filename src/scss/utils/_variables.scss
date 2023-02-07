@@ -1,0 +1,20 @@
+$fontFamily: "pop";
+$fontWeight: 400;
+$fontSize: 14px;
+$lineHeight: 20px;
+
+$u-opacity: (
+  "light": 0.06,
+  "lighter": 0.11,
+  "normal": 0.55,
+  "dark": 0.84,
+);
+
+$maxWidthContainer: 1149px;
+$containerPadding: 26px;
+$containerWidth: $maxWidthContainer + $containerPadding;
+$presetConteiner: $containerWidth;
+
+$tablet: 992px;
+$mobile: 480px;
+$mobileSmall: 320px;

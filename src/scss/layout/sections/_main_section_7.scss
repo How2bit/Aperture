@@ -1,0 +1,25 @@
+.himalayas {
+  background-image: url(/dist/img/main7-img.png);
+  background-size: cover;
+  background-position: bottom left;
+  &__container {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+  }
+
+  &__text {
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+  }
+
+  &__info {
+  }
+}

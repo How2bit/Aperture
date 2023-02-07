@@ -1,0 +1,22 @@
+.fuji {
+  background-image: url(/dist/img/main3-img.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 600px;
+  &__container {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+  }
+
+  &__text {
+  }
+
+  &__title {
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
