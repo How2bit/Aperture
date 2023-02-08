@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/dist/css/index.min.css" />
     <title>Aperture</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/dist/img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/dist/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/dist/img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/dist/img/favicon/site.webmanifest" />
   </head>
   <body>
     <div class="wrapper">
@@ -13,6 +18,10 @@
         <div class="header__container container__small">
           <a href="#" class="header__logo"> <img src="/dist/img/logo.png" alt="LogoImage" /> </a>
           <nav class="header__menu menu">
+            <div class="menu__icon">
+              <span></span>
+            </div>
+
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="#" class="menu__link">Business areas</a>
@@ -425,7 +434,12 @@
               <div class="subscribe__subtitle">Read about all the things we do.</div>
             </div>
             <div class="subscribe__search">
-              <a href="@"></a>
+              <div class="subscribe__email">
+                <form class="subscribe__element">
+                  <input class="email" type="email " name="" placeholder="Type your email..." />
+                  <input class="email__button" type="submit" value="Send" />
+                </form>
+              </div>
             </div>
           </div>
           <div class="footer__media media">
