@@ -1,3 +1,147 @@
-footer {
+.footer {
   background-color: black;
+  color: #fff;
+}
+
+.pages {
+  display: flex;
+  padding-top: 100px;
+  padding: 100px 20px 35px 20px;
+  &__logo {
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  &__image {
+    display: inline-flex;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.07);
+    }
+  }
+
+  &__text {
+    padding-top: 20px;
+
+    color: #c0c0c0;
+  }
+
+  &__dropdown {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    column-gap: 50px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  &__item li a {
+    transition: 0.3s;
+    &:hover {
+      color: darkgray;
+      text-decoration: underline;
+    }
+  }
+}
+.first {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #c0c0c0;
+}
+.subscribe {
+  border-bottom: #ffffff solid 2px;
+  border-top: #ffffff solid 2px;
+  &__text {
+    width: 50%;
+    padding-right: 10px;
+    padding: 36px 20px;
+  }
+
+  &__title {
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: 13px;
+    color: #c0c0c0;
+  }
+
+  &__search {
+    width: 50%;
+  }
+}
+.media {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 56px 20px 100px 20px;
+  &__info {
+    color: #c0c0c0;
+    padding-right: 25px;
+  }
+
+  &__icons {
+  }
+
+  &__svg {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__svg {
+    display: flex;
+    align-items: center;
+  }
+  &__svg a {
+    color: #ffffff;
+    transition: 0.3s;
+    &:hover {
+      color: rgb(94, 94, 94);
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .pages {
+    &__text {
+      padding-top: 15px;
+      font-size: 12px;
+    }
+    &__dropdown {
+      column-gap: 30px;
+    }
+    &__item {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .pages {
+    &__text {
+      padding-top: 10px;
+    }
+    &__dropdown {
+      column-gap: 20px;
+    }
+    &__item {
+      row-gap: 12px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .pages {
+    &__logo {
+      transform: rotate(-0.25turn);
+      padding-left: 40px;
+      padding-top: 40px;
+    }
+  }
 }
