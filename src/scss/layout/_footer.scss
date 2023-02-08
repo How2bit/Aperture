@@ -148,6 +148,20 @@
 }
 
 @media (max-width: 800px) {
+  .email {
+    width: 62%;
+    height: 30px;
+
+    &__button {
+      width: 30%;
+      margin-left: 9px;
+    }
+  }
+  .subscribe {
+    &__element {
+      max-width: 200px;
+    }
+  }
   .pages {
     &__text {
       padding-top: 15px;
