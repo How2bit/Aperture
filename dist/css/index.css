@@ -300,7 +300,7 @@ body {
 }
 
 .studios {
-  background-image: url(/dist/img/main1-Bacground.png);
+  background-image: url(/dist/img/main1-Bacground.webp);
   background-size: cover;
   background-position: 10% 60%;
   min-height: 735px;
